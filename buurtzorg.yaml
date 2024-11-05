@@ -93,10 +93,10 @@ spec:
         type: RollingUpdate
       podTemplate:
         spec:
-          args:
+          # args:
           # - --up
           # - "false"
-            - --after iris session IRIS < /home/irisowner/after-install.script
+            # - --after iris session IRIS < /home/irisowner/after-install.script
           nodeSelector:
             px/enabled: 'true'
           resources:
