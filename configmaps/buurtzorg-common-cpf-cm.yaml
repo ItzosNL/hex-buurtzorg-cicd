@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: buurtzorg-common-cpf-cm
+  namespace: hex-buurtzorg-o
+data:
+  merge.cpf: |
+    [config]
+    globals=0,0,512,0,0,0
+    routines=128
